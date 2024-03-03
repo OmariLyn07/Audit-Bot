@@ -12,7 +12,7 @@ Process for packaging application:
     1. Download all .py files into one folder
     2. Open terminal in either a VM(without pyinstaller) or Command Prompt(with pyinstaller)
     3. Chnage current directory to the folder with .py files via "cd insert folder path with double quotes"
-    4. enter "pyinstall --onefile Main.py, firefox_profile.py, webdriver.py, before_sleep.py"
+    4. enter "pyinstaller --onefile Main.py, firefox_profile.py, webdriver.py, before_sleep.py"
     5. After hitting enter the application.exe will be located in the dist folder
 
 Update changes 11/6/2023:
